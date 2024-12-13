@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Track your fitness activity and progress with Move and Measure">
+    <title>Dashboard - Move and Measure</title>
+    <link rel="stylesheet" href="fstyle.css">
+</head>
+<body>
+    <header>
+        <h1>Move and Measure - Dashboard</h1>
+        <nav>
+            <a href="fitness.html">Home</a>
+            <a href="fdashboard.html">Dashboard</a>
+            <a href="fworkoutplan.html">Workout Plans</a>
+            <a href="fcontact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Your Activity Overview</h2>
+        <p>Track your daily progress with interactive graphs.</p>
+
+        <div class="chart-container">
+            <canvas id="activityChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="caloriesChart"></canvas>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dscript.js"></script>
+</body>
+</html>
